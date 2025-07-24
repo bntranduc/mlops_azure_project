@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
+name: mnist-mlp
+version: 1
+type: custom_model
+description: "Modèle MLP entraîné sur MNIST"
+path: ./mnist_mlp_model.pth

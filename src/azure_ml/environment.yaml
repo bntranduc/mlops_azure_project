@@ -1,0 +1,12 @@
+name: mnist-inference-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch==2.3.0
+      - numpy==1.26.4
+      - azureml-inference-server-http
+      - flask
